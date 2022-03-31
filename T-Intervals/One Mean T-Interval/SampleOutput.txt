@@ -1,0 +1,22 @@
+One Mean T-Interval
+
+x- = sample mean
+sx = sample std dev
+nx = sample size
+
+Enter x-: 5.5
+Enter sx: 1.5
+Enter nx: 15
+Enter CL: 0.95
+
+Degrees of Freedom
+df = 14
+
+Two-Sided Interval
+4.669327687653038 <= μx <= 6.330672312346962
+
+Left-Sided Interval
+μx >= 4.817847517663766
+
+Right-Sided Interval
+μx <= 6.182152482336234
