@@ -1,0 +1,28 @@
+Two Mean T-Interval (Pooled Variance)
+
+x- = first sample mean
+sx = first sample std dev
+nx = first sample size
+y- = second sample mean
+sy = second sample std dev
+ny = second sample size
+
+Enter x-: 5.5
+Enter sx: 1.5
+Enter nx: 15
+Enter y-: 6.5
+Enter sy: 1.8
+Enter ny: 20
+Enter CL: 0.95
+
+Degrees of Freedom
+df = 33
+
+Two-Sided Interval
+-2.1669678963183676 <= μx - μy <= 0.16696789631836761
+
+Left-Sided Interval
+μx - μy >= -1.9707128504407045
+
+Right-Sided Interval
+μx - μy <= -0.029287149559295456
