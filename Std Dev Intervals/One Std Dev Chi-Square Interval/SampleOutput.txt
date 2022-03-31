@@ -1,0 +1,23 @@
+One Standard Deviation Chi-Square Interval
+
+sx = sample std dev
+nx = sample size
+
+Enter sx: 1.5
+Enter nx: 45
+Enter CL: 0.95
+
+Degrees of Freedom
+df = 44
+
+Two-Sided Intervals
+1.2417813703283163 <= σx <= 1.8947994781201885
+1.5420209716944708 <= σx^2 <= 3.5902650622845385
+
+Left-Sided Intervals
+σx >= 1.2794064118593311
+σx^2 >= 1.6368807667067684
+
+Right-Sided Intervals
+σx <= 1.8230590531569146
+σx^2 <= 3.323544311297386
