@@ -1,0 +1,19 @@
+One Mean Z-Interval
+
+σx = population std dev
+x- = sample mean
+nx = sample size
+
+Enter σx: 1.5
+Enter x-: 5.5
+Enter nx: 45
+Enter CL: 0.95
+
+Two-Sided Interval
+5.061738729711709 <= μx <= 5.938261270288291
+
+Left-Sided Interval
+μx >= 5.132199547709943
+
+Right-Sided Interval
+μx <= 5.867800452290057
