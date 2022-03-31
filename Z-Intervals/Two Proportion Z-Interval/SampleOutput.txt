@@ -1,0 +1,25 @@
+Two Proportion Z-Interval
+
+x = first sample successes
+nx = first sample size
+y = second sample successes
+ny = second sample size
+
+Enter x: 25
+Enter nx: 100
+Enter y: 35
+Enter ny: 100
+Enter CL: 0.95
+
+Proportions
+px^ = 0.25
+py^ = 0.35
+
+Two-Sided Interval
+-0.22626184738819805 <= px - py <= 0.02626184738819809
+
+Left-Sided Interval
+px - py >= -0.20596228260327332
+
+Right-Sided Interval
+px - py <= 0.005962282603273347
