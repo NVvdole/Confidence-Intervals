@@ -1,0 +1,47 @@
+Linear Regression T-Interval
+
+n = sample size
+x = predictor data
+y = response data
+
+Enter n: 10
+Enter x1: 6
+Enter x2: 7
+Enter x3: 7
+Enter x4: 8
+Enter x5: 12
+Enter x6: 14
+Enter x7: 15
+Enter x8: 16
+Enter x9: 16
+Enter x10: 19
+Enter y1: 14
+Enter y2: 15
+Enter y3: 15
+Enter y4: 17
+Enter y5: 18
+Enter y6: 18
+Enter y7: 19
+Enter y8: 24
+Enter y9: 25
+Enter y10: 29
+Enter CL: 0.95
+
+Linear Regression
+y = b0 + b1x
+b0 = 7.767346938775509
+b1 = 0.9693877551020408
+r = 0.9100351638330877
+r^2 = 0.8281639994127148
+
+Degrees of Freedom
+df = 8
+
+Two-Sided Interval
+0.6093802770028793 <= β1 <= 1.3293952332012022
+
+Left-Sided Interval
+β1 >= 0.6790798630985619
+
+Right-Sided Interval
+β1 <= 1.2596956471055196
