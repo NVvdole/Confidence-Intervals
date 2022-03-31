@@ -1,0 +1,25 @@
+Two Mean Z-Interval
+
+σx = first population std dev
+σy = second population std dev
+x- = first sample mean
+nx = first sample size
+y- = second sample mean
+ny = second sample size
+
+Enter σx: 1.5
+Enter σy: 2.5
+Enter x-: 5.5
+Enter nx: 45
+Enter y-: 6.5
+Enter ny: 50
+Enter CL: 0.95
+
+Two-Sided Interval
+-1.819911759655557 <= μx - μy <= -0.18008824034444293
+
+Left-Sided Interval
+μx - μy >= -1.6880916395849446
+
+Right-Sided Interval
+μx - μy <= -0.31190836041505543
