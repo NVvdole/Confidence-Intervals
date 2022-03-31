@@ -1,0 +1,20 @@
+One Proportion Z-Interval
+
+x = sample successes
+nx = sample size
+
+Enter x: 25
+Enter nx: 100
+Enter CL: 0.95
+
+Proportion
+px^ = 0.25
+
+Two-Sided Interval
+0.1651310699442871 <= px <= 0.3348689300557129
+
+Left-Sided Interval
+px >= 0.17877574867765264
+
+Right-Sided Interval
+px <= 0.32122425132234733
