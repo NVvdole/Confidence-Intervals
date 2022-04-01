@@ -1,3 +1,3 @@
 # Confidence Intervals
 
-A repository containing .py files that demonstrate the concept of confidence intervals.
+A repository containing .py files that demonstrate the statistics concept of confidence intervals.
