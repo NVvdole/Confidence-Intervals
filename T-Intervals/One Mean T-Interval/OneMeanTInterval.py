@@ -43,12 +43,12 @@ print("df = " + str(df))
 print("")
 
 print("Two-Sided Interval")
-print(str(lower1) + " <= \u03BCx <= " + str(upper1))
+print(str(lower1) + " < \u03BCx < " + str(upper1))
 print("")
 
 print("Left-Sided Interval")
-print("\u03BCx >= " + str(lower2))
+print(str(lower2) + " < \u03BCx < inf")
 print("")
 
 print("Right-Sided Interval")
-print("\u03BCx <= " + str(upper2))
+print("inf < \u03BCx < " + str(upper2))
