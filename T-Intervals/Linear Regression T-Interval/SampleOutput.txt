@@ -37,11 +37,14 @@ r^2 = 0.8281639994127148
 Degrees of Freedom
 df = 8
 
-Two-Sided Interval
+Two-Sided Intervals
 0.6093802770028793 <= β1 <= 1.3293952332012022
+3.162627526107104 <= β0 <= 12.372066351443912
 
-Left-Sided Interval
+Left-Sided Intervals
 β1 >= 0.6790798630985619
+β0 >= 4.054128555042231
 
-Right-Sided Interval
+Right-Sided Intervals
 β1 <= 1.2596956471055196
+β0 <= 11.480565322508786
