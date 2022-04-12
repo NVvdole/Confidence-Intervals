@@ -57,12 +57,12 @@ print("df = " + str(df))
 print("")
 
 print("Two-Sided Interval")
-print(str(lower1) + " <= \u03BCx - \u03BCy <= " + str(upper1))
+print(str(lower1) + " < \u03BCx - \u03BCy < " + str(upper1))
 print("")
 
 print("Left-Sided Interval")
-print("\u03BCx - \u03BCy >= " + str(lower2))
+print(str(lower2) + " < \u03BCx - \u03BCy < inf")
 print("")
 
 print("Right-Sided Interval")
-print("\u03BCx - \u03BCy <= " + str(upper2))
+print("-inf < \u03BCx - \u03BCy < " + str(upper2))
