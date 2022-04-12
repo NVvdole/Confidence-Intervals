@@ -54,15 +54,16 @@ print("df2 = " + str(df2))
 print("")
 
 print("Two-Sided Intervals")
-print(str(lower1) + " <= \u03C3x / \u03C3y <= " + str(upper1))
-print(str(pow(lower1, 2)) + " <= \u03C3x^2 / \u03C3y^2 <= " + str(pow(upper1, 2)))
+print(str(lower1) + " < \u03C3x / \u03C3y < " + str(upper1))
+print(str(pow(lower1, 2)) + " < \u03C3x^2 / \u03C3y^2 < " + str(pow(upper1, 2)))
 print("")
 
 print("Left-Sided Intervals")
-print("\u03C3x / \u03C3y >= " + str(lower2))
-print("\u03C3x^2 / \u03C3y^2 >= " + str(pow(lower2, 2)))
+print(str(lower2) + " < \u03C3x / \u03C3y < inf")
+print(str(pow(lower2, 2)) + " < \u03C3x^2 / \u03C3y^2 < inf")
 print("")
 
 print("Right-Sided Intervals")
-print("\u03C3x / \u03C3y <= " + str(upper2))
-print("\u03C3x^2 / \u03C3y^2 <= " + str(pow(upper2, 2)))
+print("0.0 < \u03C3x / \u03C3y < " + str(upper2))
+print("0.0 < \u03C3x^2 / \u03C3y^2 < " + str(pow(upper2, 2)))
+
