@@ -13,10 +13,10 @@ Degrees of Freedom
 df = 14
 
 Two-Sided Interval
-4.669327687653038 <= μx <= 6.330672312346962
+4.669327687653038 < μx < 6.330672312346962
 
 Left-Sided Interval
-μx >= 4.817847517663766
+4.817847517663766 < μx < inf
 
 Right-Sided Interval
-μx <= 6.182152482336234
+-inf < μx < 6.182152482336234
