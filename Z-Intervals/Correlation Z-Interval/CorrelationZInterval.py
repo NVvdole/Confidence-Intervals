@@ -49,12 +49,12 @@ upper_bottom2 = math.exp(2.0 * pow_upper2) + 1.0
 upper2 = upper_top2 / upper_bottom2
 
 print("Two-Sided Interval")
-print(str(lower1) + " <= \u03C1 <= " + str(upper1))
+print(str(lower1) + " < \u03C1 < " + str(upper1))
 print("")
 
 print("Left-Sided Interval")
-print("\u03C1 >= " + str(lower2))
+print(str(lower2) + " < \u03C1 < 1.0")
 print("")
 
 print("Right-Sided Interval")
-print("\u03C1 <= " + str(upper2))
+print("-1.0 < \u03C1 < " + str(upper2))
