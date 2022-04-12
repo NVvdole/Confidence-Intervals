@@ -40,12 +40,12 @@ print("px^ = " + str(p))
 print("")
 
 print("Two-Sided Interval")
-print(str(lower1) + " <= px <= " + str(upper1))
+print(str(lower1) + " < px < " + str(upper1))
 print("")
 
 print("Left-Sided Interval")
-print("px >= " + str(lower2))
+print(str(lower2) + " < px < 1.0")
 print("")
 
 print("Right-Sided Interval")
-print("px <= " + str(upper2))
+print("0.0 < px < " + str(upper2))
