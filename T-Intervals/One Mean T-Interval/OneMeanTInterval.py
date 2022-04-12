@@ -51,4 +51,4 @@ print(str(lower2) + " < \u03BCx < inf")
 print("")
 
 print("Right-Sided Interval")
-print("inf < \u03BCx < " + str(upper2))
+print("-inf < \u03BCx < " + str(upper2))
