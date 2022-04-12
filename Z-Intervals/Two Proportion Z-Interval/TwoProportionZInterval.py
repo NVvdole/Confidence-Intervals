@@ -52,12 +52,12 @@ print("py^ = " + str(p2))
 print("")
 
 print("Two-Sided Interval")
-print(str(lower1) + " <= px - py <= " + str(upper1))
+print(str(lower1) + " < px - py < " + str(upper1))
 print("")
 
 print("Left-Sided Interval")
-print("px - py >= " + str(lower2))
+print(str(lower2) + " < px - py < 1.0")
 print("")
 
 print("Right-Sided Interval")
-print("px - py <= " + str(upper2))
+print("-1.0 < px - py < " + str(upper2))
