@@ -66,16 +66,25 @@ for i in range(n):
     std_err_bottom += pow(x[i] - meanx, 2)
 std_err_bottom = math.sqrt(std_err_bottom)
 
+x_sqd = 0
+for i in range(n):
+    x_sqd += pow(x[i], 2)
+
 df = n - 2
-std_err = std_err_top / std_err_bottom
+std_err1 = std_err_top / std_err_bottom
+std_err0 = std_err1 * math.sqrt(x_sqd / n)
 
 T1 = t.ppf((1.0 + CL) / 2.0, df)
-lower1 = b1 - (T1 * std_err)
-upper1 = b1 + (T1 * std_err)
+lower11 = b1 - (T1 * std_err1)
+upper11 = b1 + (T1 * std_err1)
+lower01 = b0 - (T1 * std_err0)
+upper01 = b0 + (T1 * std_err0)
 
 T2 = t.ppf(CL, df)
-lower2 = b1 - (T2 * std_err)
-upper2 = b1 + (T2 * std_err)
+lower12 = b1 - (T2 * std_err1)
+upper12 = b1 + (T2 * std_err1)
+lower02 = b0 - (T2 * std_err0)
+upper02 = b0 + (T2 * std_err0)
         
 print("Linear Regression")
 print("y = b0 + b1x")
@@ -89,13 +98,16 @@ print("Degrees of Freedom")
 print("df = " + str(df))
 print("")
 
-print("Two-Sided Interval")
-print(str(lower1) + " <= \u03B21 <= " + str(upper1))
+print("Two-Sided Intervals")
+print(str(lower11) + " <= \u03B21 <= " + str(upper11))
+print(str(lower01) + " <= \u03B20 <= " + str(upper01))
 print("")
 
-print("Left-Sided Interval")
-print("\u03B21 >= " + str(lower2))
+print("Left-Sided Intervals")
+print("\u03B21 >= " + str(lower12))
+print("\u03B20 >= " + str(lower02))
 print("")
 
-print("Right-Sided Interval")
-print("\u03B21 <= " + str(upper2))
+print("Right-Sided Intervals")
+print("\u03B21 <= " + str(upper12))
+print("\u03B20 <= " + str(upper02))
